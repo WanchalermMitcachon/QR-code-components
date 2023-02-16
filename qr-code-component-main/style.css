@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    border-radius: 1.3rem;
+    width: 512px;
+    
+}
+
+.qrcode-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.qrcode-image img{
+    height: 300px;
+    width:100%;
+    margin: 1.8rem;
+    border-radius: 1.3rem;
+     border-radius: 15px;
+     object-fit: cover;
+}
+.qrcode-header{
+    padding: 20px 105px;
+    text-align: center;
+
+}
+.qrcode-header p{
+    font-weight: 700;
+    
+}
+.qrcode-info{
+    padding: 15px 90px;
+    text-align: center;
+    height: 120px;
+}
+.qrcode-info p{
+    font-size: 1.2rem;
+    color:hsl(220, 15%, 55%);
+    font-weight: 400;
+}
+.attribution { 
+    font-size: 11px; text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
+ 
+@media only screen and (max-width: 375px) {
+    .container{
+        background-color: white;
+        border-radius: 1.3rem;
+        width: 320px;
+        padding-top: 20px;
+        height: auto;        
+    }
+    
+   
+    .qrcode-image img{
+        height: 150px;
+        width:100%;
+        border-radius: 1.3rem;
+         border-radius: 15px;
+    }
+    .qrcode-header{
+        padding: 15px 5px;
+        text-align: center;
+    
+    }
+    .qrcode-header h2{
+        font-weight: 700;
+        
+    }
+    .qrcode-info{
+        padding: 35px 5px;
+        text-align: center;
+        height: auto;
+    }
+    .qrcode-info p{
+        font-size: 1.2rem;
+        color:hsl(220, 15%, 55%);
+        font-weight: 400;
+    }
+    .attribution { 
+        font-size: 11px; text-align: center; }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); }
+     
+    }
